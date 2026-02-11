@@ -16,4 +16,7 @@ def main():
     print("_________________________________")
     working_folder=get_user_folder()
     items=list_folder_files(working_folder)
+
+    for item in items:
+        print("single item is",item)
 main()
